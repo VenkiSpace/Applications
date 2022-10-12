@@ -1,0 +1,18 @@
+1. To read command line input, logstash.conf file should contain the below configuration.
+
+This will take the command line input and write the output in the specified location.
+
+
+input {
+   stdin{}
+}
+output {
+   file {
+      path => "C:/Users/VenkatesanSivasubram/Desktop/elk/logstash-8.4.2-windows-x86_64/logstash-8.4.2/logs/output.log"
+   }
+}
+
+To run logstash,
+
+logstash -f ./logstash.conf
+
