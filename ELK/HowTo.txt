@@ -1,6 +1,0 @@
-
-1. Copy "docker-compose.yml" and "logstash.conf" in a directory (For Example: C:\Office\Docker\ELK)
-
-2. Open command prompt to the location the files are copied (For Example: C:\Office\Docker\ELK)
-
-3. Run docker-compose up
